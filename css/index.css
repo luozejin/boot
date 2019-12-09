@@ -1,0 +1,170 @@
+/* 全局样式 */
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+
+
+div.row>div.left{height:81px;width: 30%;float: left;}
+div.row{width:90%;height:96px;margin:0 auto;}
+div.row>div.left>.log2{display:none;}
+.glyphicon{margin:28px 0;display:none;}
+.selcted{width:120px;display:none;background:#3C3C3C;}
+.selcted>li{height:20px;width:200px;margin:10px 5px;}
+.selcted>li>a{color: #fff;}
+.selcted>li>a:hover{color: #4BC385;}
+
+div.row>div.right{height:81px;width: 70%;float: right;}
+
+
+
+.container-fluid{height:96px;}
+#ul>li{height: 45px;float: left;padding-left:45px;font-size: 16px;text-align: center;padding-top: 35px;}
+#dian{color: #4BC385;}
+.line-top{border-top: 1px solid #3bbe7a!important;margin: auto;width: 18px;}
+#but{margin: -10px;color: #3bbe7a;font-size: 15px;border:2px solid #3bbe7a;background: floralwhite;}
+#but:hover{background: #3bbe7a;color: #fff;}
+
+.main{width:100%;height: auto;background: #F8F8F8;margin-top: 80px;}
+.one{width: 100%;height: 500px;background: #F8F8F8;}
+.mm-one{height: 300px;background: url(../img/5.jpg) no-repeat center/100%;margin-top: -37px;}
+.mm-one>img{width:600px;height: 150px;float: right;margin-top: 80px;padding-right: 100px;}
+.m-one{text-align: center;color: #333;font-size: 24px;margin-top: 50px;}
+.m-line{width:30px;height: 2px;background: #3bbe7a;margin: 0 auto;}
+
+
+.two{width: 100%;height: 900px;background: #F0F0ED;}
+.t-wo{margin: 0;text-align: center;overflow: hidden;}
+
+.t-wo>p{color:#3bbe7a;font-size: 18px;margin-top: 50px;}
+.tw-o>ul{width: 750px;height: 750px;margin: 50px auto;}
+.tw-o>ul>li{width: 300px;height: 350px;float: left;position: relative;}
+
+#pos{float: right;}
+.img-circle{width: 250px;height: 250px;border: 8px solid #3bbe7a;}
+.tw-o>ul>li>p{position: absolute;top:80px;left: 40px;color: #fff;font-size: 50px;}
+.tw-p{text-align: center;}
+
+.three{width: 100%;height: 580px;background: #F0F0ED;}
+.th{text-align: center;}
+.th>p{color:#3bbe7a;font-size: 18px;margin-top: 80px;}
+.th-tu>ul{width: 1200px;height: 460px;margin:  0 auto;}
+.th-tu>ul>li{width: 600px;height: 380px;margin-top: 50px;float: left;}
+.th-tu>ul>li>img{width: 550px;height: 230px;}
+.th-tuu{width: 400px;text-align: center;}
+.th-tuu>h4{margin-top: 30px;}
+.th-tuu>p{margin-top: 20px;}
+
+
+.four{width: 100%;height: 880px;background: #F8F8F8;}
+.f-font{text-align: center;overflow: hidden;}
+.f-font>h3{margin-top: 100px;}
+.on{width:30px;height: 2px;background: #3bbe7a;margin: 0 auto;margin-top: 10px;}
+.off{width: 1200px;margin: 0 auto;margin-top: 50px;}
+.ang{width: 100%;height: 500px;text-align: center;margin-top: 70px;}
+.ang>img{width: 1200px;height: 500px;}
+
+.footer{width: 100%;height: 150px;background: #333333;overflow: hidden;}
+.fo-left{width: 600px;height: 50px;margin-top: 20px;float: left;}
+.fo-left>ul{width: 400px;height: 50px;margin: 0 auto;margin-top: 30px;}
+.fo-left>ul>li{width: 80px;height: 40px;float: left;}
+.fo-left>ul>li>a{color: #8F8F8F;line-height: 40px;}
+.fo-left>ul>li>a:hover{color: #a9a6a6;}
+.fo-left>ul>li>span{color: #8F8F8F;padding-left: 10px;}
+.long{width: 600px;text-align: center;}
+.long>p{width: 600px;color: #4C4C4C;}
+
+.fo-right{width: 250px;height: 50px;margin-top: 50px;float: right;}
+.fo-right>img{width: 60px;height: 60px;padding-right: 20px;}
+
+/* PC端 */
+@media screen and (min-width:980px) and (max-width:1199px){
+	div.row>div.left{width: 20%;}
+	div.row>div.right{width:80%;}
+	.th-tu>ul{width: 950px;}
+	.th-tu>ul>li{width: 475px;}
+	.th-tu>ul>li>img{width: 450px;height: 230px;}
+	.th-tuu {width: 400px;}
+	.three{height:480px ;}
+	.off{width:900px;}
+	.ang>img{width: 900px;height: 500px;}
+
+	
+}
+/* 平板端 */
+@media screen and (min-width:480px) and (max-width:979px){
+	
+	.glyphicon{display:block;float:left;overflow:hidden;}
+	div.row>div.left>.log1{float:right;}
+	div.row>div.left{width:70%;}
+	div.row>div.right{display: none;}
+	
+	.one{height: 380px;}
+	.m-one{margin: 0;}
+	.mm-one{height:227px ;}
+	.mm-one>img{width:350px;height: 70px;margin-top: 80px;padding-right: 10px;}
+	.logo{height: 50px;}
+	.two{height: 1500px;}
+	.tw-o>ul{width: 300px;height: 900px;}
+	.th-tu{height: 950px;}
+	.th-tu>ul{width: 800px;height: 910px!important;}
+	
+	#ul{display: none;}
+	.th-tu>ul{width: 100%;overflow: hidden;height:800px ;}
+	.th-tu>ul>li{width: 100%;height: 400px;}
+	.th-tu>ul>li>img{width: 100%;height: 300px;}
+	.th-tuu{width: 100%;height: 60px;}
+	.three{height: 980px;}
+	.off{width:650px;}
+	.ang{height: 450px;}
+	.four{height: 800px;}
+	.ang>img{width: 100%;height: 400px;}
+	.fo-left>.log1{display: none;}
+	.fo-left>.log2{display: block;}
+	.footer{height: 50px;}
+	
+}
+
+@media screen and (max-width:479px){
+	#ul{display: none;}
+	.log1{width: 50px;}
+	.mm-one{height:210px;margin-top: -100px;}
+	.mm-one>img{width:150px;height: 50px;margin-top: 80px;padding-right: 10px;}
+	div.row{width:90%;height:50px;}
+	.container-fluid{height:50px;}
+	div.row>div.left{height:50px;}
+	div.row>div.right{height:50px;}
+	.m-one{margin: 0;font-size: 18px;}
+	.one{height: 300px;}
+	.two {height: 1460px;}
+	.t-wo>p{margin-top: 20px;}
+	.tw-p>p{width: 280px;height: 50px;margin: 0 0 0 70px;}
+	
+	.img-circle{margin: 0 70px;width:220px;height: 220px;margin: 0 0 0 100px;}
+	.tw-o>ul>li{width: 100%;}
+	.tw-o>ul{width: 100%;height: 1300px;}
+	.tw-o>ul>li>p {left: 125px;}
+	#pos{height: 328px;}
+	.th-tu>ul{width:100%;height: 860px;}
+	.th-tu>ul>li{width:100%;height: 380px;}
+	.th-tu>ul>li>img{width: 100%;height: 200px;}
+	.three{height: 830px;}
+	.th-tuu{width: 260px;height: 60px;margin: 0 0 0 80px;}
+	.th-tuu>h4{line-height: 32px;}
+	.th-tuu>p{line-height: 22px;}
+	.f-font {overflow: visible!important;}
+	.ang>img {width: 100%;height: 200px;}
+	.off {width: 86%;margin: 0 auto; margin-top: 25px;}
+	.four{height: 452px;}
+	.fo-left>ul{display: none;}
+	.fo-right{display: none;}
+	.long>p{font-size: 10px;margin: 0 0 0 -110px;}
+	.footer {height: 50px;}
+	
+	.glyphicon{display:block;float:left;overflow:hidden;}
+	div.row>div.left>.log1{float:right;}
+	div.row>div.left{width:70%;}
+	div.row>div.right{display: none;}
+	.ang {height: 249px;}
+	div.row>div.left {width: 60%;}
+	
+}
